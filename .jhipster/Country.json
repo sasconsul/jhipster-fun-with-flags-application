@@ -1,0 +1,32 @@
+{
+    "name": "Country",
+    "fields": [
+        {
+            "fieldName": "country",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "flag",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "continent",
+            "otherEntityRelationshipName": "country",
+            "relationshipName": "continent",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20191123062651",
+    "entityTableName": "country",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

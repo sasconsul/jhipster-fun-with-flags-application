@@ -1,0 +1,27 @@
+{
+    "name": "Continent",
+    "fields": [
+        {
+            "fieldName": "continent",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "country",
+            "otherEntityRelationshipName": "continent",
+            "relationshipName": "country"
+        }
+    ],
+    "changelogDate": "20191123062650",
+    "entityTableName": "continent",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}
